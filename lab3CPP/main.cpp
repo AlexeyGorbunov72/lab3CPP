@@ -6,9 +6,13 @@
 //
 
 #include <iostream>
-
+#include "fabric.hpp"
+#include "Race.hpp"
+#include "TypeOfRaces.cpp"
+#include "TransportEnum.cpp"
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Race race(Free);
+    Fabric fabric;
+    race.addParticipant(fabric.getTransport(Centaur));
     return 0;
 }

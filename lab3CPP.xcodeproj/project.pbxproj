@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CA57F0AC25899BB200E790B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0AB25899BB200E790B1 /* main.cpp */; };
+		CA57F0B525899D6E00E790B1 /* Transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0B325899D6E00E790B1 /* Transport.cpp */; };
+		CA57F0BA25899F2B00E790B1 /* GroundTransport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0B825899F2B00E790B1 /* GroundTransport.cpp */; };
+		CA57F0BF2589A43A00E790B1 /* AirTransport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0BD2589A43A00E790B1 /* AirTransport.cpp */; };
+		CA57F0C32589A59500E790B1 /* Capter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0C12589A59500E790B1 /* Capter.cpp */; };
+		CA57F0C72589A6D700E790B1 /* Mortar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0C52589A6D700E790B1 /* Mortar.cpp */; };
+		CA57F0CB2589A73600E790B1 /* Besom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0C92589A73600E790B1 /* Besom.cpp */; };
+		CA57F0CF2589A7BA00E790B1 /* Shoes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0CD2589A7BA00E790B1 /* Shoes.cpp */; };
+		CA57F0D32589A8DF00E790B1 /* Centaur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0D12589A8DF00E790B1 /* Centaur.cpp */; };
+		CA57F0D72589A96A00E790B1 /* BCamel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0D52589A96A00E790B1 /* BCamel.cpp */; };
+		CA57F0DB2589A9A000E790B1 /* Camel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0D92589A9A000E790B1 /* Camel.cpp */; };
+		CA57F0DF2589AA6F00E790B1 /* fabric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0DD2589AA6F00E790B1 /* fabric.cpp */; };
+		CA57F0E22589AAA100E790B1 /* TransportEnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0E12589AAA100E790B1 /* TransportEnum.cpp */; };
+		CA57F0E62589AF7B00E790B1 /* Race.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0E42589AF7B00E790B1 /* Race.cpp */; };
+		CA57F0EA2589B04500E790B1 /* TypeOfRaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA57F0E82589B04500E790B1 /* TypeOfRaces.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +39,33 @@
 /* Begin PBXFileReference section */
 		CA57F0A825899BB200E790B1 /* lab3CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab3CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA57F0AB25899BB200E790B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA57F0B325899D6E00E790B1 /* Transport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transport.cpp; sourceTree = "<group>"; };
+		CA57F0B425899D6E00E790B1 /* Transport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Transport.hpp; sourceTree = "<group>"; };
+		CA57F0B825899F2B00E790B1 /* GroundTransport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GroundTransport.cpp; sourceTree = "<group>"; };
+		CA57F0B925899F2B00E790B1 /* GroundTransport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GroundTransport.hpp; sourceTree = "<group>"; };
+		CA57F0BD2589A43A00E790B1 /* AirTransport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AirTransport.cpp; sourceTree = "<group>"; };
+		CA57F0BE2589A43A00E790B1 /* AirTransport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AirTransport.hpp; sourceTree = "<group>"; };
+		CA57F0C12589A59500E790B1 /* Capter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Capter.cpp; sourceTree = "<group>"; };
+		CA57F0C22589A59500E790B1 /* Capter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Capter.hpp; sourceTree = "<group>"; };
+		CA57F0C52589A6D700E790B1 /* Mortar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mortar.cpp; sourceTree = "<group>"; };
+		CA57F0C62589A6D700E790B1 /* Mortar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mortar.hpp; sourceTree = "<group>"; };
+		CA57F0C92589A73600E790B1 /* Besom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Besom.cpp; sourceTree = "<group>"; };
+		CA57F0CA2589A73600E790B1 /* Besom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Besom.hpp; sourceTree = "<group>"; };
+		CA57F0CD2589A7BA00E790B1 /* Shoes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shoes.cpp; sourceTree = "<group>"; };
+		CA57F0CE2589A7BA00E790B1 /* Shoes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shoes.hpp; sourceTree = "<group>"; };
+		CA57F0D12589A8DF00E790B1 /* Centaur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Centaur.cpp; sourceTree = "<group>"; };
+		CA57F0D22589A8DF00E790B1 /* Centaur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Centaur.hpp; sourceTree = "<group>"; };
+		CA57F0D52589A96A00E790B1 /* BCamel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BCamel.cpp; sourceTree = "<group>"; };
+		CA57F0D62589A96A00E790B1 /* BCamel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BCamel.hpp; sourceTree = "<group>"; };
+		CA57F0D92589A9A000E790B1 /* Camel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camel.cpp; sourceTree = "<group>"; };
+		CA57F0DA2589A9A000E790B1 /* Camel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camel.hpp; sourceTree = "<group>"; };
+		CA57F0DD2589AA6F00E790B1 /* fabric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fabric.cpp; sourceTree = "<group>"; };
+		CA57F0DE2589AA6F00E790B1 /* fabric.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fabric.hpp; sourceTree = "<group>"; };
+		CA57F0E12589AAA100E790B1 /* TransportEnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TransportEnum.cpp; sourceTree = "<group>"; };
+		CA57F0E42589AF7B00E790B1 /* Race.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Race.cpp; sourceTree = "<group>"; };
+		CA57F0E52589AF7B00E790B1 /* Race.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Race.hpp; sourceTree = "<group>"; };
+		CA57F0E82589B04500E790B1 /* TypeOfRaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeOfRaces.cpp; sourceTree = "<group>"; };
+		CA57F0E92589B04500E790B1 /* TypeOfRaces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TypeOfRaces.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +98,52 @@
 		CA57F0AA25899BB200E790B1 /* lab3CPP */ = {
 			isa = PBXGroup;
 			children = (
+				CA57F0BC2589A42200E790B1 /* AirTransport */,
+				CA57F0B725899F1600E790B1 /* GroundTransport */,
 				CA57F0AB25899BB200E790B1 /* main.cpp */,
+				CA57F0B325899D6E00E790B1 /* Transport.cpp */,
+				CA57F0B425899D6E00E790B1 /* Transport.hpp */,
+				CA57F0B825899F2B00E790B1 /* GroundTransport.cpp */,
+				CA57F0B925899F2B00E790B1 /* GroundTransport.hpp */,
+				CA57F0BD2589A43A00E790B1 /* AirTransport.cpp */,
+				CA57F0BE2589A43A00E790B1 /* AirTransport.hpp */,
+				CA57F0DD2589AA6F00E790B1 /* fabric.cpp */,
+				CA57F0DE2589AA6F00E790B1 /* fabric.hpp */,
+				CA57F0E12589AAA100E790B1 /* TransportEnum.cpp */,
+				CA57F0E42589AF7B00E790B1 /* Race.cpp */,
+				CA57F0E52589AF7B00E790B1 /* Race.hpp */,
+				CA57F0E82589B04500E790B1 /* TypeOfRaces.cpp */,
+				CA57F0E92589B04500E790B1 /* TypeOfRaces.hpp */,
 			);
 			path = lab3CPP;
+			sourceTree = "<group>";
+		};
+		CA57F0B725899F1600E790B1 /* GroundTransport */ = {
+			isa = PBXGroup;
+			children = (
+				CA57F0CD2589A7BA00E790B1 /* Shoes.cpp */,
+				CA57F0CE2589A7BA00E790B1 /* Shoes.hpp */,
+				CA57F0D12589A8DF00E790B1 /* Centaur.cpp */,
+				CA57F0D22589A8DF00E790B1 /* Centaur.hpp */,
+				CA57F0D52589A96A00E790B1 /* BCamel.cpp */,
+				CA57F0D62589A96A00E790B1 /* BCamel.hpp */,
+				CA57F0D92589A9A000E790B1 /* Camel.cpp */,
+				CA57F0DA2589A9A000E790B1 /* Camel.hpp */,
+			);
+			path = GroundTransport;
+			sourceTree = "<group>";
+		};
+		CA57F0BC2589A42200E790B1 /* AirTransport */ = {
+			isa = PBXGroup;
+			children = (
+				CA57F0C12589A59500E790B1 /* Capter.cpp */,
+				CA57F0C22589A59500E790B1 /* Capter.hpp */,
+				CA57F0C52589A6D700E790B1 /* Mortar.cpp */,
+				CA57F0C62589A6D700E790B1 /* Mortar.hpp */,
+				CA57F0C92589A73600E790B1 /* Besom.cpp */,
+				CA57F0CA2589A73600E790B1 /* Besom.hpp */,
+			);
+			path = AirTransport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +202,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA57F0E62589AF7B00E790B1 /* Race.cpp in Sources */,
+				CA57F0C72589A6D700E790B1 /* Mortar.cpp in Sources */,
+				CA57F0EA2589B04500E790B1 /* TypeOfRaces.cpp in Sources */,
+				CA57F0CB2589A73600E790B1 /* Besom.cpp in Sources */,
 				CA57F0AC25899BB200E790B1 /* main.cpp in Sources */,
+				CA57F0B525899D6E00E790B1 /* Transport.cpp in Sources */,
+				CA57F0D32589A8DF00E790B1 /* Centaur.cpp in Sources */,
+				CA57F0CF2589A7BA00E790B1 /* Shoes.cpp in Sources */,
+				CA57F0C32589A59500E790B1 /* Capter.cpp in Sources */,
+				CA57F0BF2589A43A00E790B1 /* AirTransport.cpp in Sources */,
+				CA57F0BA25899F2B00E790B1 /* GroundTransport.cpp in Sources */,
+				CA57F0D72589A96A00E790B1 /* BCamel.cpp in Sources */,
+				CA57F0E22589AAA100E790B1 /* TransportEnum.cpp in Sources */,
+				CA57F0DF2589AA6F00E790B1 /* fabric.cpp in Sources */,
+				CA57F0DB2589A9A000E790B1 /* Camel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
