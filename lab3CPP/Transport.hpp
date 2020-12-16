@@ -28,7 +28,6 @@ public:
     double getVelocity(){
         return velocity;
     }
-    virtual double rest() = 0;
     virtual double moveTo(double distance) = 0;
     virtual void prepareToRace() = 0;
     string getUIDAndName(){

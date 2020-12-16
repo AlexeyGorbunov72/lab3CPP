@@ -14,12 +14,13 @@
 class AirTransport: public Transport{
 public:
     double doneDistance = -1.0;
-    virtual double distanceReducerFunction(double distance);
+    virtual double distanceReducerFunction(double distance) = 0;
     AirTransport(double velocity, string name): Transport(velocity, name) {}
+    
     void prepareToRace() {
         doneDistance = -1.0;
     }
-   double moveTo(double distance){
+    double moveTo(double distance){
         if(doneDistance < 0){
             doneDistance += distance;
             return (distance * distanceReducerFunction(distance)) / getVelocity();

@@ -24,25 +24,25 @@ public:
     Transport* getTransport(Transports transport, string name = "unnamed"){
         switch (transport){
             case Camel:
-                return new class Camel(name);
+                return new Camel(name);
                 break;
             case Besom:
-                return new class Besom(name);
+                return new Besom(name);
                 break;
             case BCamel:
-                return new class BCamel(name);
+                return new BCamel(name);
                 break; 
             case Centaur:
-                return new class Centaur(name);
+                return new Centaur(name);
                 break;
             case Shoes:
-                return new class Shoes(name);
+                return new Shoes(name);
                 break;
             case Mortar:
-                return new class Mortar(name);
+                return new Mortar(name);
                 break;
             case Capter:
-                return new class Capter(name);
+                return new Capter(name);
                 break;
         }
     }

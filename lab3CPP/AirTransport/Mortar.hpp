@@ -12,11 +12,10 @@
 #include "AirTransport.hpp"
 #include <string>
 class Mortar: public AirTransport{
-    double distanceReducerFunction(double distance){
+public:
+    double distanceReducerFunction(double distance) override{
         return 1 - 0.06;
     }
-public:
     Mortar(string name): AirTransport(8, name){}
-    
 };
 #endif /* Mortar_hpp */
