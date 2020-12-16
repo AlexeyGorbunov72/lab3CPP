@@ -14,11 +14,12 @@
 int main(int argc, const char * argv[]) {
     Race race(Ground);
     Fabric fabric;
-    race.addParticipant(fabric.getTransport(CENTAUR));
-    race.addParticipant(fabric.getTransport(CAMEL));
-    race.addParticipant(fabric.getTransport(SHOES));
+    race.addParticipant(fabric.getTransport(CENTAUR, "кентавр"));
+    race.addParticipant(fabric.getTransport(CAMEL, "верблюд"));
+    race.addParticipant(fabric.getTransport(SHOES, "ботинки"));
     
     auto result = race.startRace(10);
-    
+    cout << "winner name: " << result.second->getUIDAndName() << endl;
+    cout << "winner time:" << result.first << endl;
     return 0;
 }

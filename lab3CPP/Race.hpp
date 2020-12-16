@@ -50,6 +50,7 @@ public:
     
     
     pair<double, Transport*> startRace(double distance){
+        cout << "Participants:" << endl;
         
         vector<pair<double, Transport*>> times;
         for(int i = 0; i < participants.size(); i++){
@@ -62,6 +63,9 @@ public:
                 minTime = times[i].first;
                 winner = times[i];
             }
+        }
+        for(auto &p: times){
+            cout << p.first << " " << p.second->getUIDAndName() << endl;
         }
         return  winner;
     }
