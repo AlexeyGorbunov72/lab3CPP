@@ -20,13 +20,13 @@ class Race{
     bool validate(Transport* participant){
         switch (type) {
             case Ground:
-                if((AirTransport*)(participant)){
+                if(dynamic_cast<AirTransport*>(participant)){
                     cout << "Participant access denied" << endl;
                     return false;
                 }
                 break;
             case Air:
-                if((GroundTransport*)(participant)){
+                if(dynamic_cast<GroundTransport*>(participant)){
                     cout << "Participant access denied" << endl;
                     return false;
                 }

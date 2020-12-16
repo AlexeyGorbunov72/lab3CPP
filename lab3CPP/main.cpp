@@ -10,9 +10,15 @@
 #include "Race.hpp"
 #include "TypeOfRaces.cpp"
 #include "TransportEnum.cpp"
+#include "Camel.hpp"
 int main(int argc, const char * argv[]) {
-    Race race(Free);
+    Race race(Ground);
     Fabric fabric;
-    race.addParticipant(fabric.getTransport(Centaur));
+    race.addParticipant(fabric.getTransport(CENTAUR));
+    race.addParticipant(fabric.getTransport(CAMEL));
+    race.addParticipant(fabric.getTransport(SHOES));
+    
+    auto result = race.startRace(10);
+    
     return 0;
 }

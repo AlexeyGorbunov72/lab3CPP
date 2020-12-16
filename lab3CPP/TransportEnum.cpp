@@ -8,11 +8,11 @@
 #include <stdio.h>
 
 enum Transports{
-    Centaur,
-    BCamel,
-    Camel,
-    Shoes,
-    Besom,
-    Capter,
-    Mortar
+    CENTAUR,
+    BCAMEL,
+    CAMEL,
+    SHOES,
+    BESOM,
+    CAPTER,
+    MORTAR
 };

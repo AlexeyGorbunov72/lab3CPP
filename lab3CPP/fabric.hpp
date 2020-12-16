@@ -23,25 +23,25 @@ class Fabric{
 public:
     Transport* getTransport(Transports transport, string name = "unnamed"){
         switch (transport){
-            case Camel:
+            case CAMEL:
                 return new Camel(name);
                 break;
-            case Besom:
+            case BESOM:
                 return new Besom(name);
                 break;
-            case BCamel:
+            case BCAMEL:
                 return new BCamel(name);
                 break; 
-            case Centaur:
+            case CENTAUR:
                 return new Centaur(name);
                 break;
-            case Shoes:
+            case SHOES:
                 return new Shoes(name);
                 break;
-            case Mortar:
+            case MORTAR:
                 return new Mortar(name);
                 break;
-            case Capter:
+            case CAPTER:
                 return new Capter(name);
                 break;
         }
